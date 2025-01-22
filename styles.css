@@ -1,0 +1,157 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: whitesmoke;
+}
+
+.first{
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-size:1.5rem
+}
+.nav-container{
+  background-color: rgb(231, 231, 49);
+}
+.nav-container{
+  position:relative;
+  width:100%;
+}
+.navigation-menu{
+  display:flex;
+  padding:1em;
+  justify-content: space-between;
+  align-items:center;
+}
+.toggle-button{
+  width:10%;
+}
+.links{
+  text-align:center;
+  display:none;
+  margin:0 auto;
+  text-decoration:none;
+  list-style: none;
+}
+.add{
+  display:block;
+  transition:all 0.3s ease;
+}
+.individual-links{
+  padding:1em;
+  margin:1em;
+  text-decoration:none;
+  list-style: none;
+  display:block;
+  font-size:1.2rem;
+}
+.main-div{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  margin:1em auto;
+  width:90%;
+  text-align:center;
+}
+.subsequent-div{
+  margin:2em 0;
+  padding:1em;
+}
+.novoh{
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-size:2rem;
+}
+.profile-image{
+  width:400px;
+}
+.design{
+  background-color: rgb(27, 194, 236);
+  border-radius: 15px 50px 30px;
+  display:flex;
+  position:relative;
+	flex-basis:-30%;
+    align-items:center;
+    z-index:0;
+}
+.background-design{
+  padding:2em;
+}
+.previous-works{
+  width:90%;
+  margin:0 auto;
+}
+.temp{
+  padding:1em;
+  background-color: rgb(27, 194, 236);
+  border-radius: 15px 50px 30px;
+}
+.p-text{
+  padding:.5em 1em;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+}
+.previous-work-display{
+  display:flex;
+}
+.project-image-link{
+  width:90%;
+  display:block;
+  margin:0 auto;
+}
+.previous-work-content{
+  margin:1em;
+  display:flex;
+  flex-direction: column;
+}
+.previous-work-item{
+  margin:0 auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  width:100%;
+}
+
+.related-pictures{
+  margin:0 auto;
+  width:90%;
+}
+.image-slides{
+  width:80%;
+  margin:0 auto;
+  display:block;
+}
+
+
+@media (min-width: 700px){
+  .navigation-menu{
+    display:none;
+    padding:0;
+  }
+  .toggle-button{
+    display:none;
+  }
+  .first{
+    display: none;
+  }
+  .links{
+    display:flex;
+    align-items:center;
+    margin: 0 auto; 
+    padding:0;
+    justify-content: center;
+    text-align:center;
+    border:2px solid green;
+  }
+  .individual-links{
+    padding:1em;
+    margin:1em;
+    text-decoration:none;
+    list-style: none;
+    display:block;
+    font-size:1.2rem;
+  }
+} 
